@@ -23,6 +23,7 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files) $(call all-renderscript-files-u
 
 LOCAL_PACKAGE_NAME := LiveWallpapers
 LOCAL_CERTIFICATE := shared
+LOCAL_DEX_PREOPT := false
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
